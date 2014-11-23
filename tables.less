@@ -1,0 +1,91 @@
+.ThemeGrid_Width3, .ThemeGrid_Width2, .ThemeGrid_Width1 {    
+    .TableRecords_Wrapper .TableRecords, .TableRecords {
+        
+        padding: 0px;
+        
+        .Responsive .TableRecords_Label {
+            display: block;
+            color: #999; 
+        }
+
+        td:first-child .TableRecords_Label {
+            display:inline-block; /* for master details with checkboxes*/
+        }
+
+        td:first-child .TableRecords_Label:first-child {
+            display:none;
+        }
+
+        td.TableRecords_OddLine, 
+        td.TableRecords_EvenLine {
+            width: 100%;
+            float: left;
+            display: block;
+            padding: 5px;
+            box-sizing: border-box;
+            border-bottom: none;
+            display:none;
+
+        }
+
+        td.TableRecords_OddLine:first-child, 
+        td.TableRecords_EvenLine:first-child {
+            border-top: 1px dotted #CCC;
+            display:block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor:pointer;
+
+        }
+
+        tr:first-child td.TableRecords_OddLine:first-child, 
+        tr:first-child td.TableRecords_EvenLine:first-child {
+            border:  none;
+        }
+
+        thead {
+            display: none;
+
+        }
+
+        td * {
+            text-align: left;
+        }
+
+        tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+        tr.TableRecords_ExpandedRow td.TableRecords_EvenLine {
+            display: block;
+
+        }
+
+        tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+        tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone {
+            display: none;
+        }
+
+        td:first-child:before {
+            content: "\f0dd";
+            float: right;
+            font-family: FontAwesome;
+            color: #AAA;
+            margin-right:5px;
+        }
+
+        td:last-child:before {
+            content: ""; /* hide the icon there is only one column (first and last child are the same) */
+        }
+
+        td[colspan]:first-child:before {
+            content: "";
+        }
+
+        tr.TableRecords_ExpandedRow td:first-child:before {
+            content: "\f0de";
+        }
+
+        tr.TableRecords_ExpandedRow td:last-child:before {
+            content: ""; /* hide the icon there is only one column (first and last child are the same) */
+        }
+        
+    }
+}

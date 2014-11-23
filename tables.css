@@ -1,0 +1,176 @@
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords,
+.ThemeGrid_Width3 .TableRecords,
+.ThemeGrid_Width2 .TableRecords,
+.ThemeGrid_Width1 .TableRecords {
+  padding: 0px;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords .Responsive .TableRecords_Label,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords .Responsive .TableRecords_Label,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords .Responsive .TableRecords_Label,
+.ThemeGrid_Width3 .TableRecords .Responsive .TableRecords_Label,
+.ThemeGrid_Width2 .TableRecords .Responsive .TableRecords_Label,
+.ThemeGrid_Width1 .TableRecords .Responsive .TableRecords_Label {
+  display: block;
+  color: #999;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label,
+.ThemeGrid_Width3 .TableRecords td:first-child .TableRecords_Label,
+.ThemeGrid_Width2 .TableRecords td:first-child .TableRecords_Label,
+.ThemeGrid_Width1 .TableRecords td:first-child .TableRecords_Label {
+  display: inline-block;
+  /* for master details with checkboxes*/
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label:first-child,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label:first-child,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td:first-child .TableRecords_Label:first-child,
+.ThemeGrid_Width3 .TableRecords td:first-child .TableRecords_Label:first-child,
+.ThemeGrid_Width2 .TableRecords td:first-child .TableRecords_Label:first-child,
+.ThemeGrid_Width1 .TableRecords td:first-child .TableRecords_Label:first-child {
+  display: none;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width3 .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width2 .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width1 .TableRecords td.TableRecords_OddLine,
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine,
+.ThemeGrid_Width3 .TableRecords td.TableRecords_EvenLine,
+.ThemeGrid_Width2 .TableRecords td.TableRecords_EvenLine,
+.ThemeGrid_Width1 .TableRecords td.TableRecords_EvenLine {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  border-bottom: none;
+  display: none;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width3 .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width2 .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width1 .TableRecords td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width3 .TableRecords td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width2 .TableRecords td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width1 .TableRecords td.TableRecords_EvenLine:first-child {
+  border-top: 1px dotted #CCC;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width3 .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width2 .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width1 .TableRecords tr:first-child td.TableRecords_OddLine:first-child,
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr:first-child td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width3 .TableRecords tr:first-child td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width2 .TableRecords tr:first-child td.TableRecords_EvenLine:first-child,
+.ThemeGrid_Width1 .TableRecords tr:first-child td.TableRecords_EvenLine:first-child {
+  border: none;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords thead,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords thead,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords thead,
+.ThemeGrid_Width3 .TableRecords thead,
+.ThemeGrid_Width2 .TableRecords thead,
+.ThemeGrid_Width1 .TableRecords thead {
+  display: none;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td *,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td *,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td *,
+.ThemeGrid_Width3 .TableRecords td *,
+.ThemeGrid_Width2 .TableRecords td *,
+.ThemeGrid_Width1 .TableRecords td * {
+  text-align: left;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine,
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine {
+  display: block;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_OddLine.HiddenInSmartphone,
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td.TableRecords_EvenLine.HiddenInSmartphone {
+  display: none;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td:first-child:before,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td:first-child:before,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td:first-child:before,
+.ThemeGrid_Width3 .TableRecords td:first-child:before,
+.ThemeGrid_Width2 .TableRecords td:first-child:before,
+.ThemeGrid_Width1 .TableRecords td:first-child:before {
+  content: "\f0dd";
+  float: right;
+  font-family: FontAwesome;
+  color: #AAA;
+  margin-right: 5px;
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td:last-child:before,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td:last-child:before,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td:last-child:before,
+.ThemeGrid_Width3 .TableRecords td:last-child:before,
+.ThemeGrid_Width2 .TableRecords td:last-child:before,
+.ThemeGrid_Width1 .TableRecords td:last-child:before {
+  content: "";
+  /* hide the icon there is only one column (first and last child are the same) */
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords td[colspan]:first-child:before,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords td[colspan]:first-child:before,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords td[colspan]:first-child:before,
+.ThemeGrid_Width3 .TableRecords td[colspan]:first-child:before,
+.ThemeGrid_Width2 .TableRecords td[colspan]:first-child:before,
+.ThemeGrid_Width1 .TableRecords td[colspan]:first-child:before {
+  content: "";
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:first-child:before,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:first-child:before,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:first-child:before,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td:first-child:before,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td:first-child:before,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td:first-child:before {
+  content: "\f0de";
+}
+.ThemeGrid_Width3 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:last-child:before,
+.ThemeGrid_Width2 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:last-child:before,
+.ThemeGrid_Width1 .TableRecords_Wrapper .TableRecords tr.TableRecords_ExpandedRow td:last-child:before,
+.ThemeGrid_Width3 .TableRecords tr.TableRecords_ExpandedRow td:last-child:before,
+.ThemeGrid_Width2 .TableRecords tr.TableRecords_ExpandedRow td:last-child:before,
+.ThemeGrid_Width1 .TableRecords tr.TableRecords_ExpandedRow td:last-child:before {
+  content: "";
+  /* hide the icon there is only one column (first and last child are the same) */
+}
