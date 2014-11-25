@@ -1,21 +1,18 @@
-.ThemeGrid_Width3, .ThemeGrid_Width2, .ThemeGrid_Width1 {    
-    .TableRecords_Wrapper .TableRecords, .TableRecords {
+.ThemeGrid_Width6, .ThemeGrid_Width5, .ThemeGrid_Width4, .ThemeGrid_Width3, .ThemeGrid_Width2, .ThemeGrid_Width1 {    
+    > .TableRecords_Wrapper .TableRecords, .TableRecords {
         
         padding: 0px;
-        
-        .Responsive .TableRecords_Label {
-            display: block;
-            color: #999; 
-        }
 
         td:first-child .TableRecords_Label {
             display:inline-block; /* for master details with checkboxes*/
         }
 
+        
         td:first-child .TableRecords_Label:first-child {
             display:none;
         }
-
+        
+        .Responsive,
         td.TableRecords_OddLine, 
         td.TableRecords_EvenLine {
             width: 100%;
@@ -25,6 +22,10 @@
             box-sizing: border-box;
             border-bottom: none;
             display:none;
+            
+            .TableRecords_Label {
+                display: block;
+            }
 
         }
 
